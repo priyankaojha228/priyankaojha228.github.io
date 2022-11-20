@@ -164,15 +164,18 @@ $(function(){
     var resumeCollapse = function (){
         var ww = Math.max($(window).width(), window.innerWidth),
         workItem = $('.collapse', '#work'),
+        jobItem = $('.collapse', '#job'),
         educationItem = $('.collapse', '#education');
         
         if (ww < 768){
             workItem.collapse('show');
             educationItem.collapse('show');
+            jobItem.collapse('show');
         }
         else{
             workItem.not(':first').collapse('hide');
             educationItem.not(':first').collapse('hide');
+            jobItem.not(':first').collapse('hide');
         }
     };
     

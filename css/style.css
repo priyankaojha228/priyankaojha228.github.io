@@ -214,7 +214,7 @@ button:focus {
 }
 
 .bg-overlay {
-    background-color: rgba(7, 7, 7, 0.7);
+    /*background-color: rgba(7, 7, 7, 0.7);*/
     position: absolute;
     top: 0;
     right: 0;
@@ -2089,7 +2089,7 @@ button.mfp-arrow:active {
 
 @media (max-width: 767px) {
   .services .item > .inner-content {
-    text-align: center;
+    /*text-align: center;*/
   }
 }
 
@@ -2104,6 +2104,12 @@ button.mfp-arrow:active {
 }
 
 .services .item > .inner-content > h4 {
+  margin-top: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.services .item > .inner-content > h5 {
   margin-top: 15px;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -2129,7 +2135,7 @@ button.mfp-arrow:active {
 
 @media (min-width: 768px) {
   .services .item.top > .inner-content {
-    padding: 20px 50px 25px 50px;
+    padding: 20px 20px 20px 20px;
   }
 }
 
@@ -2428,7 +2434,7 @@ button.mfp-arrow:active {
 .panel-group.resume .resume-item .resume-year {
   display: block;
   position: relative;
-  width: 120px;
+  width: 140px;
   height: 40px;
   margin-bottom: -20px;
   margin-right: auto;
@@ -2944,7 +2950,7 @@ button.mfp-arrow:active {
   width: 60px;
   height: 60px;
   line-height: 60px;
-  background-color: #3A9EB9;
+  background-color: #e65f78;
   font-size: 28px;
   text-align: center;
   border-radius: 50%;
@@ -2970,7 +2976,7 @@ button.mfp-arrow:active {
 /*  6.10. SECTION - MILESTONES
 /*---------------------------------------------------------------------*/
 .bg-overlay {
-    background-color: rgba(7, 7, 7, 0.7);
+    /*background-color: rgba(7, 7, 7, 0.7);*/
     position: absolute;
     top: 0;
     right: 0;
@@ -2980,8 +2986,8 @@ button.mfp-arrow:active {
 
 
 #milestones {
-  background-image: url("../images/p1.jpg");
-  background-color: rgba(7, 7, 7, 0.7);
+  background-image: url("../images/walle.jpg");
+  /*background-color: rgba(7, 7, 7, 0.7);*/
 }
 
 #milestones.parallax-yes {
@@ -2989,8 +2995,8 @@ button.mfp-arrow:active {
 }
 
 #milestones.parallax-yes > .parallax > .bcg {
-  background-image: url("../images/p1.jpg");
-  background-color: rgba(7, 7, 7, 0.7);
+  background-image: url("../images/walle.jpg");
+  /*background-color: rgba(7, 7, 7, 0.7);*/
 }
 
 .milestones {
@@ -3018,9 +3024,9 @@ button.mfp-arrow:active {
   position: relative;
   margin: 0 auto;
   margin-bottom: 20px;
-  width: 100px;
-  height: 100px;
-  background-color: #3A9EB9;
+  width: 150px;
+  height: 150px;
+  background-color: #e65f78;
   border-radius: 50%;
   opacity: 0.8;
 }
@@ -3030,13 +3036,14 @@ button.mfp-arrow:active {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 60px;
-  height: 60px;
+  width: 55px;
+  height: 50px;
   line-height: 60px;
   margin-top: -30px;
   margin-left: -30px;
-  font-size: 45px;
+  font-size: 50px;
   text-align: center;
+  color: white;
 }
 
 .milestones .item > .number {
@@ -3046,7 +3053,95 @@ button.mfp-arrow:active {
 .milestones .item h4 {
   margin-top: 5px;
   font-size: 22px;
-  font-weight: 700;
+  font-weight: 400;
+  color: white;
+  line-height: 1cm;
+}
+
+/*---------------------------------------------------------------------*/
+/*  6.10. SECTION - MILESTONES
+/*---------------------------------------------------------------------*/
+.bg-overlay {
+  background-color: rgba(7, 7, 7, 0.7);
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+#milestones1 {
+background-image: url("../images/p1.jpg");
+background-color: rgba(7, 7, 7, 0.7);
+}
+
+#milestones1.parallax-yes {
+background: none;
+}
+
+#milestones1.parallax-yes > .parallax > .bcg {
+background-image: url("../images/p1.jpg");
+background-color: rgba(7, 7, 7, 0.7);
+}
+
+.milestones1 {
+margin-top: 40px;
+}
+
+.milestones1 .item {
+text-align: center;
+}
+
+@media (max-width: 992px) {
+.milestones1 .item:first-child,
+.milestones1 .item:nth-child(2) {
+  margin-bottom: 60px;
+}
+}
+
+@media (max-width: 768px) {
+.milestones1 .item:nth-child(3) {
+  margin-bottom: 60px;
+}
+}
+
+.milestones1 .item > .circle {
+position: relative;
+margin: 0 auto;
+margin-bottom: 20px;
+width: 150px;
+height: 150px;
+background-color: #e65f78;
+border-radius: 50%;
+opacity: 0.8;
+}
+
+.milestones1 .item > .circle > i {
+display: block;
+position: absolute;
+top: 50%;
+left: 50%;
+width: 55px;
+height: 50px;
+line-height: 60px;
+margin-top: -30px;
+margin-left: -30px;
+font-size: 50px;
+text-align: center;
+color: white;
+}
+
+.milestones1 .item > .number {
+font-size: 32px;
+}
+
+.milestones1 .item h4 {
+margin-top: 5px;
+font-size: 22px;
+font-weight: 400;
+color: white;
+line-height: 1cm;
 }
 
 
