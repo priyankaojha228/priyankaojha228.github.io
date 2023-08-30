@@ -199,7 +199,7 @@ $(function(){
                 selector: ".slides > .item",
                 manualControls: ".flex-control-nav li",
                 directionNav : false,
-                slideshowSpeed: 10000,
+                slideshowSpeed: 20000,
                 after: function(slider){
                     if (!slider.playing) {
                         slider.play();
